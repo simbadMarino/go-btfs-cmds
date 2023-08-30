@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/bittorrent/go-btfs-cmds"
+	"github.com/simbadMarino/go-btfs-cmds"
 	"net/http"
 )
 

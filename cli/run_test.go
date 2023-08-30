@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bittorrent/go-btfs-cmds"
+	"github.com/simbadMarino/go-btfs-cmds"
 )
 
 var root = &cmds.Command{

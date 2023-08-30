@@ -4,12 +4,12 @@ import (
 	"context"
 	"os"
 
-	"github.com/bittorrent/go-btfs-cmds/examples/adder"
+	"github.com/simbadMarino/go-btfs-cmds/examples/adder"
 
-	//cmds "github.com/bittorrent/go-btfs-cmds"
-	cmds "github.com/bittorrent/go-btfs-cmds"
-	cli "github.com/bittorrent/go-btfs-cmds/cli"
-	http "github.com/bittorrent/go-btfs-cmds/http"
+	//cmds "github.com/simbadMarino/go-btfs-cmds"
+	cmds "github.com/simbadMarino/go-btfs-cmds"
+	cli "github.com/simbadMarino/go-btfs-cmds/cli"
+	http "github.com/simbadMarino/go-btfs-cmds/http"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	cmds "github.com/bittorrent/go-btfs-cmds"
+	cmds "github.com/simbadMarino/go-btfs-cmds"
 )
 
 func TestClientUserAgent(t *testing.T) {

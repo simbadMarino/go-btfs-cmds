@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	cmds "github.com/bittorrent/go-btfs-cmds"
+	cmds "github.com/simbadMarino/go-btfs-cmds"
 
 	"github.com/bittorrent/go-common/v2/network"
 

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bittorrent/go-btfs-cmds/examples/adder"
+	"github.com/simbadMarino/go-btfs-cmds/examples/adder"
 
-	"github.com/bittorrent/go-btfs-cmds"
-	"github.com/bittorrent/go-btfs-cmds/cli"
+	"github.com/simbadMarino/go-btfs-cmds"
+	"github.com/simbadMarino/go-btfs-cmds/cli"
 )
 
 func main() {

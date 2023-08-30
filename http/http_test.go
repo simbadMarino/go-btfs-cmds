@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	cmds "github.com/bittorrent/go-btfs-cmds"
+	cmds "github.com/simbadMarino/go-btfs-cmds"
 
 	files "github.com/bittorrent/go-btfs-files"
 )

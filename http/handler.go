@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	cmds "github.com/bittorrent/go-btfs-cmds"
+	cmds "github.com/simbadMarino/go-btfs-cmds"
 
 	logging "github.com/ipfs/go-log"
 	cors "github.com/rs/cors"
