@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/simbadMarino/go-btfs-cmds"
+	"github.com/bittorrent/go-btfs-cmds"
 
 	"github.com/bittorrent/go-btfs-files"
 )

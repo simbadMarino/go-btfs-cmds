@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simbadMarino/go-btfs-cmds"
-	"github.com/simbadMarino/go-btfs-cmds/cli"
+	"github.com/bittorrent/go-btfs-cmds"
+	"github.com/bittorrent/go-btfs-cmds/cli"
 )
 
 // AddStatus describes the progress of the add operation

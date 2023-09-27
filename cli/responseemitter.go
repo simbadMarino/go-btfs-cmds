@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/simbadMarino/go-btfs-cmds"
+	"github.com/bittorrent/go-btfs-cmds"
 )
 
 var _ ResponseEmitter = &responseEmitter{}

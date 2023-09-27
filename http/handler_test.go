@@ -11,7 +11,7 @@ import (
 
 	"testing"
 
-	cmds "github.com/simbadMarino/go-btfs-cmds"
+	cmds "github.com/bittorrent/go-btfs-cmds"
 	files "github.com/bittorrent/go-btfs-files"
 )
 

@@ -6,7 +6,7 @@ cmds offers tools for describing and calling commands both locally and remotely,
 
 ## Documentation
 
-https://pkg.go.dev/github.com/simbadMarino/go-btfs-cmds
+https://pkg.go.dev/github.com/bittorrent/go-btfs-cmds
 
 ## Contribute
 

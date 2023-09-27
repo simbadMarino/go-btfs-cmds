@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	osh "github.com/Kubuxu/go-os-helper"
-	cmds "github.com/simbadMarino/go-btfs-cmds"
+	cmds "github.com/bittorrent/go-btfs-cmds"
 	files "github.com/bittorrent/go-btfs-files"
 	logging "github.com/ipfs/go-log"
 )

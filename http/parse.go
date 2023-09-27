@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	cmds "github.com/simbadMarino/go-btfs-cmds"
+	cmds "github.com/bittorrent/go-btfs-cmds"
 
-	"github.com/bittorrent/go-common/v2/network"
+//	"github.com/simbadMarino/go-common/v2/network"
 
 	files "github.com/bittorrent/go-btfs-files"
 	logging "github.com/ipfs/go-log"
@@ -54,8 +54,8 @@ var RemoteAccessible = func() func(c *cmds.Command, addr string) bool {
 				}
 			}
 		}
-		isLocal, err := network.IsLocalIp(strings.Split(addr, ":")[0])
-		return (err == nil && isLocal) || !c.NoRemote || (enabled && inWhiteList)
+		//isLocal, err := network.IsLocalIp(strings.Split(addr, ":")[0])
+		//return (err == nil && isLocal) || !c.NoRemote || (enabled && inWhiteList)
 	}
 }()
 
