@@ -43,7 +43,7 @@ func GetRequestRemoteAddr(ctx context.Context) (string, bool) {
 }
 
 var RemoteAccessible = func() func(c *cmds.Command, addr string) bool {
-	enabled := strings.ToLower(os.Getenv("ENABLE_WALLET_REMOTE")) == "true"
+	/*enabled := strings.ToLower(os.Getenv("ENABLE_WALLET_REMOTE")) == "true"
 	return func(c *cmds.Command, addr string) bool {
 		inWhiteList := false
 		if domain, b := c.Extra.GetValue(DomainKey); b {
@@ -56,7 +56,8 @@ var RemoteAccessible = func() func(c *cmds.Command, addr string) bool {
 		}
 		//isLocal, err := network.IsLocalIp(strings.Split(addr, ":")[0])
 		//return (err == nil && isLocal) || !c.NoRemote || (enabled && inWhiteList)
-	}
+	}*/
+	return nil
 }()
 
 // parseRequest parses the data in a http.Request and returns a command Request object
